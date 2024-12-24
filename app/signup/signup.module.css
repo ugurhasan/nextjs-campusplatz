@@ -1,0 +1,546 @@
+.section input {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.section {
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #e5e7eb;
+    padding: 18px;
+}
+
+.navbar1 a {
+    font-size: 30px;
+}
+.navbar2 a {
+    font-weight: 300;
+}
+
+.navbar1 a {
+    text-decoration: none;
+    font-weight: 900;
+    color: black;
+}
+
+.navbar button {
+    padding: 15px;
+    background: 0;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 2px solid rgba(0, 0, 0, 0.644);
+}
+
+.navbar button:hover {
+    background-color: rgba(10, 10, 94, 0.829);
+    color: white;
+}
+
+.navbar div {
+    margin-right: 140px;
+    margin-left: 140px;
+}
+
+
+
+.sign-up-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25%;
+    margin-top: 3vh;
+    height: 75vh;
+}
+
+.sign-up-form h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 10px;
+}
+
+.names {
+    flex-direction: column;
+}
+
+
+.button-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px 0 5px;
+}
+
+.btn-1 {
+    padding: 15px 35px 15px 35px;
+    border-radius: 25px;
+    background-color: white;
+    border: 2px solid black;
+    font-weight: 600;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn-1:hover {
+    background-color: rgba(224, 224, 224, 0.699);
+    border: 2px solid rgba(0, 0, 0, 0.411);
+}
+
+.already-account {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.already-account p {
+    padding: 0 5px 0px 0px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.644);
+}
+
+.already-account a {
+    padding: 0 5px 0px 0px;
+    font-size: 14px;
+    color: rgb(58, 89, 226);
+    font-weight: 400;
+}
+
+.text-sm {
+    padding: 10px 0;
+    padding-bottom: 10px;
+}
+
+.text-sm p {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.712);
+}
+.text-sm a {
+    color: rgb(58, 89, 226);
+    text-decoration: none;
+}
+
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    margin-top: 45px;
+}
+
+
+
+
+.spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1); /* Light gray border */
+    border-top: 4px solid #000; /* Black spinner */
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 0.6s linear infinite;
+    margin: 0 auto;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.success {
+    color: rgb(10, 107, 10);
+}
+.error {
+    color: rgb(233, 61, 61);
+}
+
+/* Existing Styles... */
+
+/* Responsive Styling */
+@media (max-width: 1280px) { /* Tablets and smaller screens */
+
+    section.section-body {
+        height: 60vh;
+    }
+    .main {
+        padding: 0;
+        padding-top: 75px;
+    }
+    .big h1 {
+        font-size: 75px;
+        margin-bottom: 0px;
+    }
+    .small h3 {
+        font-size: 25px;
+    }   
+    .buttons button {
+        padding: 5px 45px 5px 45px;
+    }
+
+
+
+
+
+    .navbar div {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .sign-up-form {
+        width: 80%; /* Make the form wider on smaller screens */
+        height: 80%;
+        padding: 20px;
+        justify-content: center;
+        justify-items: center;
+        margin-top: 50px;
+    }
+
+    .sign-up-form h1 {
+        font-size: 28px; /* Reduce font size */
+    }
+
+
+
+    .button-form {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px; /* Add space between elements in column layout */
+    }
+
+    .btn-1 {
+        width: 100%; /* Full-width button */
+        padding: 15px 20px 15px 20px;
+    }
+
+    .already-account {
+        justify-content: center;
+        font-size: 13px; /* Adjust font size */
+    }
+
+    .form-control {
+        width: 70vh;
+    }
+    .form-control i {
+        margin-right: 46vh;
+    }
+
+
+            /*================ Section info ================*/ 
+            
+            .services-section {
+                padding: 20px;
+            }
+        
+            .services-section h2 {
+                font-size: 2rem;
+                margin-bottom: 30px;
+            }
+        
+            .services-grid {
+                grid-template-columns: 1fr 1fr 1fr; /* 2 items per row on tablets and laptops */
+                width: 100%;
+                column-gap: 0px;
+            }
+        
+            .service-item {
+                width: 80%; /* Full width for each item */
+            }
+
+
+    .columns {
+        width: 80%;
+    }
+
+    .photo img {
+        max-height: 350px;
+        max-width: 370px;
+    }
+
+    .box {
+        height: 300px;
+    }
+    .hello {
+        height: 300px;
+    }
+
+    .items-center {
+        margin: 0;
+    }
+}
+
+/* Mobile Devices (max-width: 430px) */
+@media (max-width: 430px) { 
+
+    /*================ Login and Sign In ================*/ 
+    .section {
+        height: 107vh;
+    }
+    .flex {
+        width: 90%; 
+    }
+
+    .navbar div {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .sign-up-form {
+        width: 90%; /* Increase width for mobile */
+    }
+
+    .navbar a {
+        font-size: 20px; /* Adjust font size for brand */
+    }
+
+    .navbar button {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+
+
+    .form-control {
+        width: 90%;
+        padding: 0;
+    }
+
+    .names {
+        flex-direction: column;
+    }
+
+    .names input {
+        padding-right: 100px;
+    }
+    
+
+    .sign-up-form h1 {
+        font-size: 24px;
+    }
+
+    .form-control label {
+        font-size: 12px;
+    }
+
+
+
+    .text-sm {
+        margin-bottom: 40px;
+    }
+
+    .text-sm p, .already-account p {
+        font-size: 12px; /* Smaller font for text */
+    }
+
+    .button-form {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .btn-1 {
+        width: 100%; /* Full-width button */
+        padding: 15px 40px 15px 40px ;
+    }
+
+    .form-control i {
+        margin-right: 80px;
+        margin-bottom: 15px;
+    }
+    /*================ Main Page(Index.html) ================*/ 
+
+
+    .header {
+        max-width: 40vh;
+    }
+    .header div {
+        margin: 0;
+    }
+                    /* ====== Section Body & Nav ====== */
+
+    .main {
+        justify-items: center;
+    }
+    .big h1 {
+        font-size: 55px;
+    }
+
+    .text-sm {
+        padding: 0;
+    }
+    .small {
+        width: 45vh;
+    }
+    .text h3 {
+        font-size: 20px;
+    }
+
+    .buttons button {
+        padding: 0.9rem 3rem;
+    }
+    .buttons button span {
+        font-size: 20px;
+    }
+
+                     /* ====== Section Info====== */
+    
+                     .services-section {
+                        padding: 20px;
+                    }
+                
+                    .services-section h2 {
+                        font-size: 2rem;
+                        margin-bottom: 30px;
+                    }
+                
+                    .services-grid {
+                        grid-template-columns: 1fr; /* 1 item per row on small screens */
+                        width: 100%; /* Full width for small screens */
+                        gap: 30px; /* Adjust spacing between items */
+                    }
+                
+                    .service-item {
+                        width: 80%; /* Full width for each item */
+                    }
+
+
+                     /* ====== Section How it works====== */
+    .how-it-works h1 {
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+        text-align: center;
+    }                 
+    .columns {
+        width: 430px;
+    }        
+    
+    .first-column h1 {
+        font-size: 2.875rem;
+        line-height: 2.25rem;
+    }
+
+    .box {
+        flex-direction: column;
+    }
+    .box .photo {
+        text-align: center;
+    }
+    .box .photo img{
+        width: 387px;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        justify-content: center;
+        color: black; /* Equivalent to text-black */
+        gap: 1rem; /* Equivalent to gap-4 */
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .first-about {
+        padding-top: 30px;
+        justify-self: center;
+    }
+    .first-about p {
+        width: 43vh;
+    }
+
+    .second-column  {
+        align-items: center;
+    }
+    .second-about h2 {
+        margin-left: 25px;
+    }
+    .second-about .items-center {
+        margin-left: 15px;
+    }
+    .items-center p {
+        font-size: 1rem;
+        width: 387px;
+    }
+
+
+    .third-column {
+        flex-direction: column;
+        width: 350px;
+        justify-self: center;
+        padding: 5px 18px 5px 18px;
+    }
+    .element {
+        display: flex;
+        flex-direction: column;
+        margin: 15px 0 15px 0;
+    }
+    .element-2 {
+        display: flex;
+    }
+    .element-2 h1 {
+        font-size: 1rem;
+        line-height: 1.5rem
+    }
+    .element  p {
+        margin: 0;
+    }
+
+
+
+    .fourth-about h2 {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .fourth-about .items-center {
+        margin-left: 20px;
+    }
+
+    .fourth-about .learn {
+        margin-left: 20px;
+    }
+
+    /* ====== Section Footer====== */
+
+    .footer-inside {
+        width: 80%;
+    }
+
+    .socials-2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .socials {
+        flex-direction: column;
+    }
+    .socials div {
+        margin: 10px 0 10px 0;
+    }
+
+    .social {
+        margin: 0;
+    }
+
+    .rights {
+        padding: 0;
+    }
+
+    .button-footer h1 {
+        font-size: 35px;
+    }
+}

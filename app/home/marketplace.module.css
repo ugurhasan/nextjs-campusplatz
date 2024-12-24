@@ -1,0 +1,24 @@
+.card1 {
+    width: 250px; /* Adjust as needed */
+    height: 300px; /* Adjust as needed */
+    background-image: url(/courses3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.card2 {
+    width: 250px; /* Adjust as needed */
+    height: 300px; /* Adjust as needed */
+    background-image: url(/jobs2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.card3 {
+    width: 250px; /* Adjust as needed */
+    height: 300px; /* Adjust as needed */
+    background-image: url(/acco2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
