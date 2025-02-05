@@ -31,9 +31,29 @@
     background-position: center;
     background-size: cover;
 }
+.slide5 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url(../../public/student-accommodation.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.slide6 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url(../../public/mini-jobs1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
 .font {
     font-family: 'DT', sans-serif;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     text-align: center;
+    width: 55rem;
+}
+
+.section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)), url(../../public/HomeImageSection.jpg);
 }
